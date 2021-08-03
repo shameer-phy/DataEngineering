@@ -15,6 +15,7 @@ then
 		echo "********************************"
 		echo "File copied Successfully"
 		echo "********************************"
+		mail -s "File copied Successfully" shameerkhan.dev@gmail.com
 	else
 		mail -s "File is not found" shameerkhan.dev@gmail.com
 	fi
@@ -30,6 +31,7 @@ then
 		echo "*******************************"
 		echo "File copied Successfully"
 		echo "*******************************"
+		mail -s "File copied Successfully" shameerkhan.dev@gmail.com
 	else 
 		mail -s "File is not found" shameerkhan.dev@gmail.com
 	fi
